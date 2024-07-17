@@ -5,7 +5,7 @@
 <img align="right" alt="Coding" width="400" src="https://img1.picmix.com/output/stamp/normal/1/6/9/7/2617961_40a45.gif">
 
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=dnreikronos&label=Profile%20views&color=0e75b6&style=flat" alt="dnreikronos" /> </p>
+<p align="left"> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Programming123najra.gif/800px-Programming123najra.gif?20220415084448" alt="dnreikronos" /> </p>
 
 - 🔭 I’m currently working on **Rock, Paper and Scissor**
 
