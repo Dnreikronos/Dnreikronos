@@ -5,8 +5,6 @@
 <img align="right" alt="Coding" width="400" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Programming123najra.gif/800px-Programming123najra.gif?20220415084448">
 
 
-<p align="left"> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Programming123najra.gif/800px-Programming123najra.gif?20220415084448" alt="dnreikronos" /> </p>
-
 - 🔭 I’m currently working on **Rock, Paper and Scissor**
 
 - 🌱 I’m currently learning **React, NextJS, Tailwind**
