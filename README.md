@@ -17,7 +17,7 @@
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
-<a href="https://linkedin.com/in/joao roberto lawall soares" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="joao roberto lawall soares" height="30" width="40" /></a>
+<a href="https://linkedin.com/in/joao_roberto_lawall_soares" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="joao roberto lawall soares" height="30" width="40" /></a>
 <a href="https://instagram.com/bsoare_s" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="bsoare_s" height="30" width="40" /></a>
 <a href="https://discord.gg/bsoares_s_37163" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/discord.svg" alt="bsoares_s_37163" height="30" width="40" /></a>
 </p>
