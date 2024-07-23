@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm João Roberto Lawall Soares</h1>
-<h3 align="center">A passionate frontend developer from Brazil</h3>
+<h3 align="center">A future fullstack developer from Brazil</h3>
 
 <img align="right" alt="Coding" width="400" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Programming123najra.gif/800px-Programming123najra.gif?20220415084448">
 
