@@ -6,7 +6,7 @@
 
 - 🔭 I’m currently working on **Rock, Paper and Scissor**
 
-- 🌱 I’m currently learning **React, NextJS, Tailwind**
+- 🌱 I’m currently learning **React and JS**
 
 - 📫 How to reach me **dnreikronos2@gmail.com**
 
