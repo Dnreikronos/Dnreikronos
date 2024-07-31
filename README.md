@@ -6,7 +6,7 @@
 
 - 🔭 I’m currently working on **Wiki Fans**
 
-- 🌱 I’m currently learning **React and JS**
+- 🌱 I’m currently learning **React, TS and Golang**
 
 - 📫 How to reach me **dnreikronos2@gmail.com**
 
