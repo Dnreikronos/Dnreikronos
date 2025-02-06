@@ -10,7 +10,7 @@
 
 #### My other skills
 ✓ Lua        | Bash                    <br>
-✓ MySQL                                <br>
+✓ GraphQL    | Elastricsearch  |  Logstash  |  Grafana                       <br>
 ✓ AWS                                  <br>
 ✓ ReactJS    | Angular | Vite | Svelt  <br>
 ✓ Typescript | JavaScript              <br>
