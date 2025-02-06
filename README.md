@@ -9,11 +9,11 @@
 ✓ Linux      | Windows
 
 #### My other skills
-✓ Lua        | Bash
-✓ MySQL  
-✓ AWS         
-✓ ReactJS    | Angular | Vite | Svelt
-✓ Typescript | JavaScript   
+✓ Lua        | Bash                    <br>
+✓ MySQL                                <br>
+✓ AWS                                  <br>
+✓ ReactJS    | Angular | Vite | Svelt  <br>
+✓ Typescript | JavaScript              <br>
 
 
 ## 📫 Get in touch
