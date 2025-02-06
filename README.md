@@ -1,4 +1,4 @@
-## Hello everyone, welcome to my GitHub profile! 👋  
+## Hello everyone, welcome to my GitHub profile! 🗽⃢⃢🗿  
 #### I am a developer specialized in backend development and have high knowledge in the frontend area. I currently have a degree in Systems Analysis and Development at Univates (University of Vale do Taquari)
 
 #### My main areas of activity
