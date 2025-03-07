@@ -33,7 +33,7 @@ I love working with **high-performance applications, scalable architectures, and
 - 🛠 **GitHub** | **GitLab** – Experience in version control, CI/CD, and collaborative development.  
 
 ---
-
+![Dnreikronos's Streak](https://github-readme-streak-stats.herokuapp.com/?user=Dnreikronos&theme=vue-dark&hide_border=true)
 
 ## 👯️ Get in Touch!  
 - 📧 Email: [joao.soares@universo.univates.br](mailto:joao.soares@universo.univates.br)  
