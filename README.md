@@ -1,6 +1,5 @@
 ## Hello everyone, welcome to my GitHub profile! 🗽⃢⃢🗿  
 
-## 🚀 About Me  
 I'm a **Software Engineer** with **3 years of experience** specializing in **backend development**, but I also have solid knowledge in frontend technologies.  
 I hold a degree in **Systems Analysis and Development** from [Univates (University of Vale do Taquari)](https://www.univates.br/).  
 
