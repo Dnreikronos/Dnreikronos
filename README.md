@@ -35,7 +35,7 @@ I love working with **high-performance applications, scalable architectures, and
 ---
 ![Dnreikronos's Streak](https://github-readme-streak-stats.herokuapp.com/?user=Dnreikronos&theme=vue-dark&hide_border=true)
 
-## 👯️ Get in Touch!  
+##  Get in Touch!  
 - 📧 Email: [joao.soares@universo.univates.br](mailto:joao.soares@universo.univates.br)  
 - 💼 LinkedIn: [João Roberto Lawall Soares](https://www.linkedin.com/in/joaorobertolawallsoares)  
 
