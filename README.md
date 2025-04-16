@@ -1,43 +1,46 @@
-## Hello everyone, welcome to my GitHub profile! 🗽⃢⃢🗿  
+## 👋 Welcome to my GitHub
 
-I'm a **Software Engineer** with **3 years of experience** specializing in **backend development**, but I also have solid knowledge in frontend technologies.  
-I hold a degree in **Systems Analysis and Development** from [Univates (University of Vale do Taquari)](https://www.univates.br/).  
+I'm a **Software Engineer** with **3 years of experience**, primarily focused on **backend development**. I also have a solid foundation in frontend technologies and a strong interest in scalable systems, high-performance applications, and event-driven architectures.
 
-I love working with **high-performance applications, scalable architectures, and event-driven systems**. My main focus is on **Golang and Java** for backend development, but I'm always eager to explore new technologies.  
+I hold a degree in **Systems Analysis and Development** from [Univates – University of Vale do Taquari](https://www.univates.br/), and I'm passionate about continuous learning and building meaningful software.
+
+I love working with **high-performance applications, scalable architectures, and event-driven systems**. My main focus is on **Golang** for backend development, but I'm always eager to explore new technologies.  
+Recently, I’ve also been building **decentralized systems** and started studying and developing **Web3 applications**, exploring tools like **MetaMask**, **Ethereum**, and smart contract integration.
+
+---
+
+## 🛠 Tech Stack
+
+### Backend
+- **Golang** – My go-to language for building APIs, microservices, and performant systems  
+- **Java (Spring Boot)** – Experience in developing RESTful services and enterprise-grade applications  
+
+### Databases & Storage
+- **PostgreSQL**, **MySQL** – Skilled in data modeling, query optimization, and ORMs (e.g., Gorm)  
+- **Elasticsearch**, **Logstash** – Experience with search, logging, and data pipelines  
+
+### DevOps & Cloud
+- **Docker** – Containerization for local development and production deployment  
+- **AWS** – Familiar with EC2, S3, SQS, and basic cloud infrastructure  
+- **Linux** – Daily environment for development and server management  
+
+### Frontend
+- **React**, **Angular**, **Vite**, **Svelte** – Knowledgeable in modern UI frameworks and SPA development  
+- **TypeScript**, **JavaScript** – Comfortable building interactive and dynamic web applications  
+
+### Additional Tools & Skills
+- **GraphQL** – Building efficient and flexible APIs  
+- **gRPC**, **REST APIs** – Designing scalable communication layers  
+- **Bash**, **Lua** – Writing scripts and automation tasks  
+- **GitHub**, **GitLab** – Version control, CI/CD, and team collaboration  
 
 ---
 
-## 🛠️ Tech Stack  
-
-### 🔹 **Backend Development:**  
-- 🐹 **Golang** – My primary language, used for building APIs, microservices, and high-performance systems.  
-- ☕ **Java (Spring Boot)** – Experience in building RESTful services and enterprise applications.  
-
-### 🟄️ **Databases & Storage:**  
-- 📌 **PostgreSQL** | **MySQL** – Experience with database design, query optimization, and ORM frameworks like Gorm.  
-- 🔍 **Elasticsearch** | **Logstash** – Hands-on experience in search indexing, logging, and data aggregation.  
-
-### 🏷 **DevOps & Cloud:**  
-- 🐳 **Docker** – Containerized applications for development and deployment.  
-- ☁️ **AWS** – Familiar with cloud services like EC2, S3, and SQS for scalable applications.  
-- 🖥 **Linux** – Daily driver for development and server management.  
-
-### 🌐 **Frontend Development:**  
-- ⚛ **ReactJS** | 🄰 **Angular** | 🚀 **Vite** | 💙 **Svelte** – Experience in modern frontend frameworks and component-based UI development.  
-- 📝 **TypeScript** | **JavaScript** – Strong knowledge of frontend development with dynamic applications.  
-
-### ⚡ **Other Skills & Tools:**  
-- 🐜 **GraphQL** – Experience with API query languages and efficient data fetching.  
-- 🏗️ **gRPC** | **REST APIs** – Building scalable and high-performance APIs.  
-- 💻 **Bash** | **Lua** – Scripting and automation for system tasks.  
-- 🛠 **GitHub** | **GitLab** – Experience in version control, CI/CD, and collaborative development.  
-
----
 ![Dnreikronos's Streak](https://github-readme-streak-stats.herokuapp.com/?user=Dnreikronos&theme=vue-dark&hide_border=true)
 
-##  Get in Touch!  
-- 📧 Email: [joao.soares@universo.univates.br](mailto:joao.soares@universo.univates.br)  
-- 💼 LinkedIn: [João Roberto Lawall Soares](https://www.linkedin.com/in/joaorobertolawallsoares)  
+---
 
+## 📬 Contact
 
-
+- **Email**: [joao.soares@universo.univates.br](mailto:joao.soares@universo.univates.br)  
+- **LinkedIn**: [João Roberto Lawall Soares](https://www.linkedin.com/in/joaorobertolawallsoares)
