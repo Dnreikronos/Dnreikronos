@@ -22,5 +22,5 @@ I'm passionate about building scalable, high-performance, and event-driven syste
 
 ## 📬 Contact
 
-- Email: [joao.soares@universo.univates.br](mailto:joao.soares@universo.univates.br)  
+- Email: [blsoaresdev@gmail.com](mailto:blsoaresdev@gmail.com)  
 - LinkedIn: [João Roberto Lawall Soares](https://www.linkedin.com/in/joaorobertolawallsoares)
