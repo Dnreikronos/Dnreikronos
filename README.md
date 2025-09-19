@@ -1,6 +1,6 @@
 ## 👋 Whats up!
 
-I'm a Software Engineer with 5+ years of experience, mainly focused on backend development. I work mostly with Golang, but I also have experience in frontend and Web3 technologies like MetaMask, Ethereum and Solana.
+I'm a Software Engineer with 4+ years of experience, mainly focused on backend development. I work mostly with Golang, but I also have experience in frontend and Web3 technologies like MetaMask, Ethereum and Solana.
 
 I'm passionate about building scalable, high-performance, and event-driven systems.
 
