@@ -21,7 +21,8 @@ I'm passionate about building scalable, high-performance, and event-driven syste
 ---
 
 ## 📃 MY Cv
-[joao.soares_curriculum_vitae.pdf](https://github.com/user-attachments/files/24102129/joao.soares_curriculum_vitae.pdf)
+[resume_joao_imrpoved.pdf](https://github.com/user-attachments/files/25268872/resume_joao_imrpoved.pdf)
+
 
 
 ---
