@@ -11,8 +11,9 @@ I'm passionate about building scalable, high-performance, and event-driven syste
 **Backend:** Golang, Rust 
 **Databases:** PostgreSQL, MySQL, Elasticsearch, Oracle, MongoDB  
 **DevOps/Cloud:** Docker, AWS, Linux, K6  
+**Web3:** Solidity, Solana(Rust)  
 **Other:** GraphQL, gRPC, REST APIs, Bash, Lua, GitHub, GitLab
-**Web3:** Solidity, Solana(Rust)
+
 
 ---
 
