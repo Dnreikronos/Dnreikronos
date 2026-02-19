@@ -8,7 +8,7 @@ I'm passionate about building scalable, high-performance, and event-driven syste
 
 ## 🛠 Tech Stack
 
-**Backend:** Golang, Rust 
+**Backend:** Golang, Rust  
 **Databases:** PostgreSQL, MySQL, Elasticsearch, Oracle, MongoDB  
 **DevOps/Cloud:** Docker, AWS, Linux, K6  
 **Web3:** Solidity, Solana(Rust)  
