@@ -22,7 +22,7 @@ I'm passionate about building scalable, high-performance, and event-driven syste
 ---
 
 ## 📃 MY Cv
-[resume_joao_imrpoved.pdf](https://github.com/user-attachments/files/25268872/resume_joao_imrpoved.pdf)
+[my_resume.pdf](https://github.com/user-attachments/files/25458915/my_resume.pdf)
 
 
 
