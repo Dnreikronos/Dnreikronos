@@ -19,10 +19,6 @@ I'm passionate about building scalable, high-performance, and event-driven syste
 
 ![Dnreikronos's Streak](https://github-readme-streak-stats.herokuapp.com/?user=Dnreikronos&theme=vue-dark&hide_border=true)
 
----
-
-## 📃 MY Cv
-[my_resume.pdf](https://github.com/user-attachments/files/25458915/my_resume.pdf)
 
 
 
