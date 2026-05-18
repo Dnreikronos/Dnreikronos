@@ -1,4 +1,4 @@
-# Hey 👋
+# Wassup 👋
 
 I'm João, a backend engineer with about 6 years in Go. Most of that time has been spent keeping things from falling over at scale, and lately I've been spending nights and weekends on Rust and ZK cryptography.
 
