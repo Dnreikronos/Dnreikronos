@@ -1,10 +1,10 @@
-# Wassup 👋
+# Wassup
 
-I'm João, a senior backend engineer (6+ years in Go) who spends the rest of his time on zero-knowledge cryptography and on-chain code. The day job pays the bills; ZK circuits and smart contracts on Ethereum and Solana are the part I actually care about.
+I'm Joao, a senior backend engineer (6+ years in Go) who spends the rest of his time on zero-knowledge cryptography and on-chain code. The day job pays the bills; ZK circuits and smart contracts on Ethereum and Solana are the part I actually care about.
 
 **Highlights:**
 - A ZK dark pool DEX (halo2 + arkworks) and a Solana compliance layer that runs Groth16 verification inside a Token-2022 transfer hook under 200k compute units.
-- 36 merged PRs across Rust open source: 30 in [Zed](https://github.com/zed-industries/zed), 5 in the [Rust compiler](https://github.com/rust-lang/rust), 1 in [Sway](https://github.com/FuelLabs/sway).
+- 49 merged PRs across Rust open source: 30 in [Zed](https://github.com/zed-industries/zed), 18 in the [Rust compiler](https://github.com/rust-lang/rust), 1 in [Sway](https://github.com/FuelLabs/sway).
 - Web3 mentor at Borderless Coding: 60+ engineers, 20+ live workshops.
 
 ---
@@ -43,10 +43,16 @@ Web3 Technical Mentor and Ambassador at **Borderless Coding** (USA). Mentored 60
 
 Plus 5 merged PRs on the OCaml extension (Dune support, MLX files, LSP argument forwarding, project root detection). [All my Zed PRs](https://github.com/zed-industries/zed/pulls?q=author%3ADnreikronos).
 
-**[Rust compiler](https://github.com/rust-lang/rust)** (Rust, 103k+ stars): 12 PRs submitted, 5 merged across diagnostics, type checking, traits, rustdoc, and bootstrap.
+**[Rust compiler](https://github.com/rust-lang/rust)** (Rust, 114k+ stars): 29 PRs submitted, 18 merged across diagnostics, type checking, traits, rustdoc, pin projection, formatting diagnostics, and bootstrap.
 
+- [#158637](https://github.com/rust-lang/rust/pull/158637): fixed HIR type lowering by avoiding self type lookup for inherent aliases.
+- [#158222](https://github.com/rust-lang/rust/pull/158222): fixed foreign-format diagnostic hints around `println!` newlines.
+- [#158081](https://github.com/rust-lang/rust/pull/158081): recovered deferred closure calls after trait-system errors.
+- [#157835](https://github.com/rust-lang/rust/pull/157835): expanded free alias types in the auto-trait orphan check.
 - [#157223](https://github.com/rust-lang/rust/pull/157223): fixed a rustdoc ICE on delegated async functions.
 - [#156861](https://github.com/rust-lang/rust/pull/156861): suppressed garbled strict-provenance lint suggestions inside macros.
+
+Current open rustc work covers eager invocation parent handling, invalid direct const-arg owner rejection, rustdoc auto-trait normalization, anonymous const recovery, binder diagnostics, next-solver region constraints, proc-macro spans, and const-arg tuple-call lowering.
 
 [All my rustc PRs](https://github.com/rust-lang/rust/pulls?q=author%3ADnreikronos).
 
