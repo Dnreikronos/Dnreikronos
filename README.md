@@ -4,7 +4,7 @@ I'm Joao, a senior backend engineer (6+ years in Go) who spends the rest of his 
 
 **Highlights:**
 - A ZK dark pool DEX (halo2 + arkworks) and a Solana compliance layer that runs Groth16 verification inside a Token-2022 transfer hook under 200k compute units.
-- 49 merged PRs across Rust open source: 30 in [Zed](https://github.com/zed-industries/zed), 18 in the [Rust compiler](https://github.com/rust-lang/rust), 1 in [Sway](https://github.com/FuelLabs/sway).
+- 71 merged PRs across Rust open source: 36 in the [Rust compiler](https://github.com/rust-lang/rust), 33 in [Zed](https://github.com/zed-industries/zed), 2 in [Sway](https://github.com/FuelLabs/sway).
 - Web3 mentor at Borderless Coding: 60+ engineers, 20+ live workshops.
 
 ---
@@ -34,7 +34,7 @@ Web3 Technical Mentor and Ambassador at **Borderless Coding** (USA). Mentored 60
 
 ## Open source
 
-**[Zed](https://github.com/zed-industries/zed)** (Rust, 70k+ stars): 56 PRs submitted, 30 merged across 15+ subsystems, around 6,800 lines. A few I'm proud of:
+**[Zed](https://github.com/zed-industries/zed)** (Rust, 70k+ stars): 62 PRs submitted, 33 merged across 15+ subsystems, around 3,000 lines. A few I'm proud of:
 
 - [#51035](https://github.com/zed-industries/zed/pull/51035): found and fixed a macOS deadlock in the GPUI rendering framework. Re-entrant key status changes were freezing the UI.
 - [#50705](https://github.com/zed-industries/zed/pull/50705): reworked picker selection logic across 11 files so non-selectable entries can no longer confirm unintended actions in the command palette.
@@ -43,22 +43,27 @@ Web3 Technical Mentor and Ambassador at **Borderless Coding** (USA). Mentored 60
 
 Plus 5 merged PRs on the OCaml extension (Dune support, MLX files, LSP argument forwarding, project root detection). [All my Zed PRs](https://github.com/zed-industries/zed/pulls?q=author%3ADnreikronos).
 
-**[Rust compiler](https://github.com/rust-lang/rust)** (Rust, 114k+ stars): 29 PRs submitted, 18 merged across diagnostics, type checking, traits, rustdoc, pin projection, formatting diagnostics, and bootstrap.
+**[Rust compiler](https://github.com/rust-lang/rust)** (Rust, 114k+ stars): 49 PRs submitted, 36 merged, 9 still open. Around 3,500 lines added across 255 files, concentrated in the next-generation trait solver, diagnostics, HIR and AST lowering, and borrowck. A few merged ones I'm proud of:
 
-- [#158637](https://github.com/rust-lang/rust/pull/158637): fixed HIR type lowering by avoiding self type lookup for inherent aliases.
-- [#158222](https://github.com/rust-lang/rust/pull/158222): fixed foreign-format diagnostic hints around `println!` newlines.
-- [#158081](https://github.com/rust-lang/rust/pull/158081): recovered deferred closure calls after trait-system errors.
-- [#157835](https://github.com/rust-lang/rust/pull/157835): expanded free alias types in the auto-trait orphan check.
-- [#157223](https://github.com/rust-lang/rust/pull/157223): fixed a rustdoc ICE on delegated async functions.
-- [#156861](https://github.com/rust-lang/rust/pull/156861): suppressed garbled strict-provenance lint suggestions inside macros.
+- [#158588](https://github.com/rust-lang/rust/pull/158588): fixed `-Zassumptions-on-binders` diagnostics in trait selection. 24 files, the largest change I've landed in the compiler.
+- [#161012](https://github.com/rust-lang/rust/pull/161012): normalized non-rigid aliases when NLL relates types in borrowck.
+- [#157680](https://github.com/rust-lang/rust/pull/157680) and [#157542](https://github.com/rust-lang/rust/pull/157542): tightened the new `#[pin_v2]` attribute. Require it for explicit pin-projection patterns, reject it on `#[repr(packed)]` types.
+- [#156968](https://github.com/rust-lang/rust/pull/156968): taught const-operation diagnostics to suggest `generic_const_args`. 73 files of test output moved with it.
+- [#156885](https://github.com/rust-lang/rust/pull/156885): fixed a misattributed type-inference error span on index expressions.
+- [#158874](https://github.com/rust-lang/rust/pull/158874): fixed anonymous const type recovery in HIR type lowering.
+- [#160390](https://github.com/rust-lang/rust/pull/160390): handled slice-tailed DSTs in autodiff type trees.
+- [#157270](https://github.com/rust-lang/rust/pull/157270): capture upvars by reference for `.use` in non-move closures (ergonomic clones).
 
-Current open rustc work covers eager invocation parent handling, invalid direct const-arg owner rejection, rustdoc auto-trait normalization, anonymous const recovery, binder diagnostics, next-solver region constraints, proc-macro spans, and const-arg tuple-call lowering.
+Most of the recent work is on the next-gen trait solver: tracking canonical response universe assumptions ([#159987](https://github.com/rust-lang/rust/pull/159987)), resolving region vars in the max universe ([#157921](https://github.com/rust-lang/rust/pull/157921)), normalizing next-gen region constraints ([#158404](https://github.com/rust-lang/rust/pull/158404)), and turning the solver on globally for assumptions-on-binders ([#160513](https://github.com/rust-lang/rust/pull/160513)).
+
+Nine PRs open right now: async closure output propagation in `hir_typeck`, closure trait errors pointed at the captured values that caused them, naming the item that discards an unused type parameter in `wfcheck`, keeping type-op region constraints in borrowck, resolving inference variables after deep normalization, representing live alias arguments as bitsets, and normalizing autodiff typetree struct fields.
 
 [All my rustc PRs](https://github.com/rust-lang/rust/pulls?q=author%3ADnreikronos).
 
-**[Sway](https://github.com/FuelLabs/sway)** (Rust, 61k+ stars): the smart-contract language for the Fuel blockchain. 7 PRs submitted, 1 merged.
+**[Sway](https://github.com/FuelLabs/sway)** (Rust, 61k+ stars): the smart-contract language for the Fuel blockchain. 8 PRs submitted, 2 merged.
 
 - [#7629](https://github.com/FuelLabs/sway/pull/7629): optimized away zero-length MCP/MCPI instructions in the compiler backend.
+- [#7628](https://github.com/FuelLabs/sway/pull/7628): fixed `forc-fmt` collapsing an empty if-body and its `else` onto one line.
 
 [All my Sway PRs](https://github.com/FuelLabs/sway/pulls?q=author%3ADnreikronos).
 
