@@ -5,7 +5,7 @@ I'm Joao, a senior software engineer at [Mother.tech](https://mother.tech). Befo
 Highlights:
 - At Mother.tech I built the company's first LLM evaluation harness and a 726-trial security benchmark.
 - A ZK dark pool DEX (halo2 + arkworks) and a Solana compliance layer that runs Groth16 verification inside a Token-2022 transfer hook under 200k compute units.
-- 71 merged PRs across Rust open source: 36 in the [Rust compiler](https://github.com/rust-lang/rust), 33 in [Zed](https://github.com/zed-industries/zed), 2 in [Sway](https://github.com/FuelLabs/sway).
+- 86 merged PRs across Rust open source: 51 in the [Rust compiler](https://github.com/rust-lang/rust), 33 in [Zed](https://github.com/zed-industries/zed), 2 in [Sway](https://github.com/FuelLabs/sway).
 - Web3 mentor at Borderless Coding: 60+ engineers, 20+ live workshops.
 
 ## Day job: Mother.tech
@@ -52,7 +52,7 @@ Web3 Technical Mentor and Ambassador at **Borderless Coding** (USA). Mentored 60
 
 Plus 5 merged PRs on the OCaml extension (Dune support, MLX files, LSP argument forwarding, project root detection). [All my Zed PRs](https://github.com/zed-industries/zed/pulls?q=author%3ADnreikronos).
 
-**[Rust compiler](https://github.com/rust-lang/rust)** (Rust, 114k+ stars): 49 PRs submitted, 36 merged, 9 still open. Around 3,500 lines added across 255 files, concentrated in the next-generation trait solver, diagnostics, HIR and AST lowering, and borrowck. A few merged ones I'm proud of:
+**[Rust compiler](https://github.com/rust-lang/rust)** (Rust, 122k+ stars): 66 PRs submitted, 51 merged, 8 still open. Around 5,500 lines added across 371 files, mostly in the next-generation trait solver, borrowck, diagnostics, and HIR lowering. A few merged ones I'm proud of:
 
 - [#158588](https://github.com/rust-lang/rust/pull/158588): fixed `-Zassumptions-on-binders` diagnostics in trait selection. 24 files, the largest change I've landed in the compiler.
 - [#161012](https://github.com/rust-lang/rust/pull/161012): normalized non-rigid aliases when NLL relates types in borrowck.
@@ -62,10 +62,14 @@ Plus 5 merged PRs on the OCaml extension (Dune support, MLX files, LSP argument 
 - [#158874](https://github.com/rust-lang/rust/pull/158874): fixed anonymous const type recovery in HIR type lowering.
 - [#160390](https://github.com/rust-lang/rust/pull/160390): handled slice-tailed DSTs in autodiff type trees.
 - [#157270](https://github.com/rust-lang/rust/pull/157270): capture upvars by reference for `.use` in non-move closures (ergonomic clones).
+- [#161624](https://github.com/rust-lang/rust/pull/161624): pointed closure trait errors at the captured values that caused them.
+- [#161708](https://github.com/rust-lang/rust/pull/161708): propagated an async closure's output type into its body in `hir_typeck`.
+- [#161467](https://github.com/rust-lang/rust/pull/161467): `wfcheck` now names the item that discards an unused type parameter.
+- [#163713](https://github.com/rust-lang/rust/pull/163713): propagated reported errors from ABI checks in codegen.
 
-Most of the recent work is on the next-gen trait solver: tracking canonical response universe assumptions ([#159987](https://github.com/rust-lang/rust/pull/159987)), resolving region vars in the max universe ([#157921](https://github.com/rust-lang/rust/pull/157921)), normalizing next-gen region constraints ([#158404](https://github.com/rust-lang/rust/pull/158404)), and turning the solver on globally for assumptions-on-binders ([#160513](https://github.com/rust-lang/rust/pull/160513)).
+Most of the recent work is on the next-gen trait solver: tracking canonical response universe assumptions ([#159987](https://github.com/rust-lang/rust/pull/159987)), resolving region vars in the max universe ([#157921](https://github.com/rust-lang/rust/pull/157921)), normalizing next-gen region constraints ([#158404](https://github.com/rust-lang/rust/pull/158404)), turning the solver on globally for assumptions-on-binders ([#160513](https://github.com/rust-lang/rust/pull/160513)), adding implied outlives assumptions ([#162238](https://github.com/rust-lang/rust/pull/162238)), handling reflexive region constraints ([#161988](https://github.com/rust-lang/rust/pull/161988)), preserving eager normalization failures ([#162618](https://github.com/rust-lang/rust/pull/162618)), and resolving region vars before eager placeholder handling ([#164103](https://github.com/rust-lang/rust/pull/164103)).
 
-Nine PRs open right now: async closure output propagation in `hir_typeck`, closure trait errors pointed at the captured values that caused them, naming the item that discards an unused type parameter in `wfcheck`, keeping type-op region constraints in borrowck, resolving inference variables after deep normalization, representing live alias arguments as bitsets, and normalizing autodiff typetree struct fields.
+Eight PRs open right now. Two are on `Reborrow` in borrowck: fixing an ICE on types with several lifetimes and skipping ignorable places when gathering loans. The rest explain implicit object lifetimes in static calls, reject escaping bound vars in anon const arg types, restore type-op solver constraints, fix `Field::OFFSET` normalization in the next solver, add minimal coroutine binder assumptions, and normalize autodiff typetree struct fields.
 
 [All my rustc PRs](https://github.com/rust-lang/rust/pulls?q=author%3ADnreikronos).
 
